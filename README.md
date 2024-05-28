@@ -52,12 +52,12 @@ driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
 Replace the `user_handle` in the script with the Twitter handle you want to monitor. Then, run the script.
 
 ```bash
-python prizepicks_bot.py
+python main.py
 ```
 
 ### 2. Script Explanation
 - `fetch_latest_prizepicks_link(user_handle)`: Fetches the latest tweets from the specified user and looks for PrizePicks links.
-- `automate_prizepicks_bet(prizepicks_url)`: Automates the process of navigating to the PrizePicks link and placing a $5 bet.
+- `automate_pp_bet(prizepicks_url)`: Automates the process of navigating to the PrizePicks link and placing a $5 bet.
 - `main(user_handle)`: Integrates both functions to monitor tweets and place bets.
 
 ### Example
