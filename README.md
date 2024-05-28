@@ -57,7 +57,7 @@ python main.py
 
 ### 2. Script Explanation
 - `fetch_latest_prizepicks_link(user_handle)`: Fetches the latest tweets from the specified user and looks for PrizePicks links.
-- `automate_pp_bet(prizepicks_url)`: Automates the process of navigating to the PrizePicks link and placing a $5 bet.
+- `automate_pp_bet(prizepicks_url)`: Automates the process of navigating to the PrizePicks link and placing a $5 bet (or whatever your unit size is).
 - `main(user_handle)`: Integrates both functions to monitor tweets and place bets.
 
 ### Example
